@@ -283,7 +283,7 @@ Creates a new hasher instance using the standard hash function.
 
 Creates a new hasher instance for a keyed hash. For more information, see [the blake3 docs](https://docs.rs/blake3/0.1.3/blake3/fn.keyed_hash.html).
 
-##### `createDeriveKey(key: Buffer): Hasher`
+##### `createDeriveKey(context: string): Hasher`
 
 Creates a new hasher instance for the key derivation function. For more information, see [the blake3 docs](https://docs.rs/blake3/0.1.3/blake3/fn.derive_key.html).
 
